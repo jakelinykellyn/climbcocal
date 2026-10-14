@@ -1,0 +1,266 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Roboto+Slab:wght@100..900&family=Zen+Antique+Soft&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #fff;
+}
+
+header, img{
+    width: 100%;
+    height: 370px;
+    
+}
+
+nav{
+    background-color: #BB9963
+  ;
+    text-align: center;
+    padding: 10px;
+}
+
+a{
+    font: 1.2rem "Roboto Slab", serif;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.a-menu{
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.a-menu:link, .a-menu:visited{
+    color: #fff;
+}
+
+.a-menu:hover, .a-menu:active{
+    color: #BFAC45 ;
+}
+
+article{
+    width: 100%;
+    background-color: #fff;
+    padding:  20px;
+    box-sizing: border-box;
+}
+
+h1{font: 3rem "Zen Antique Soft", serif;
+  color:#c67423;  
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+p{
+  font: 1.2rem "Roboto Slab", serif;
+    color: #555656 ;
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 30px;
+}
+
+#txt-preto{
+    color: #000000;
+}
+
+section{
+    background-color: #fff;
+    padding: 20px;
+
+}
+
+h2{
+    font: 2rem "Zen Antique Soft", serif;
+    color: #A67C58;
+}
+
+#beneficios{
+    background-color: #BB9963;
+}
+
+#beneficios h2{
+    color: #fff;}
+
+#beneficios p{
+    color: #fff;
+    margin-top: 20px;
+}
+
+ul{
+    margin-left: 50px;
+    list-style-position: inside;
+    list-style-type: circle;
+    padding: 20px 30px;
+}
+
+li{
+    color: #fff;
+    font: 1.2rem "Roboto Slab", serif;
+    margin-bottom: 10px;
+}
+
+#equipamentos{
+    background-color: #BFAC45;
+
+}
+
+#container{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 20px ;
+}
+
+.img-card{
+    background-color: #fff;
+    margin: 15px;
+    width: 25%;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px #786d30;
+    transition: 0.5s;
+}
+
+.img-card:hover{
+    box-shadow: 20px 20px 20px #d6ba1c;
+}
+
+.card-content{
+    padding: 10px;
+}
+
+.card-content p{
+   font: 1.2rem "Roboto Slab", serif;
+    color: #555656 ;
+    line-height: 20px; 
+}
+
+h3{
+    font: 1.5rem "Roboto Slab", serif;
+    color: #A67C58;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#cadastro{
+
+}
+
+#cadastro p{
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+#container-cadastro{
+    display: flex;
+}
+
+.coluna-cadastro{
+    padding: 40px;
+}
+
+.container-img{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-img p{
+    color: #000000;
+}
+.img-icones{
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+}
+
+video{
+    width: 400px;
+}
+
+footer{
+    background-color: #A67C58;
+    padding: 20px;
+}
+
+footer p{
+    text-align: center;
+        color: #555656;
+
+}
+
+footer a{
+    text-align: center;
+        color: #555656;
+
+}
+
+footer a:hover{
+    color:#fff;
+}
+
+/* Página agendamentos*/
+
+#pag-agendamentos{
+
+}
+
+#pag-agendamentos p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form{
+    width: 600px;
+    margin: 0 auto;
+}
+
+input, textarea{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    box-sizing: border-box;
+    border: 1px solid #A67C58;
+    color: #555656;
+
+}
+
+label, fieldset, input, textarea{
+    font: 1rem "Roboto Slab", serif;
+}
+
+fieldset{
+    border: 1px solid #A67C58;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#data-hora{
+    display: flex;
+}
+
+input[type="radio"]{
+    width: 15px;
+    height: 15px;
+    margin-left: 30px;
+}
+
+#botoes-form{
+    display: flex;
+}
+
+input[type="submit"], input[type="reset"]{
+    margin: 20px;
+    background-color: #417a24;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+}
+
+input[type="reset"]{
+    background-color: #7f412e;
+}

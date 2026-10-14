@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Escalada no Coração do Cerrado</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Jakeliny Moura" />
+    <meta name="keywords" content="Escalada, Aula de Escalada, Atividades físicas, Parque dos Pireneus" />
+    <meta name="description" content="Escalada no parque dos Pireneus" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <img src="img/teste-banner.png" alt="Banner contendo montanha chamada morro do cabeludo" />
+    </header>
+    <nav>
+        <a class="a-menu" href="index.html"> Home </a>
+        <a class="a-menu"href="index.html#beneficios"> Benefícios </a>
+        <a class="a-menu"href="index.html#equipamentos"> Equipamentos </a>
+        <a class="a-menu"href="index.html#cadastro"> Cadastro </a>
+        <a class="a-menu"href="agendamentos.html"> Agendamento </a>
+    </nav>
+    <section id="pag-agendamentos">
+        <h1>Agendamento</h1>
+        <p>Controle de Acesso ao PEP</p>
+
+        <form name="" method="" action="">
+            <label for="nome_completo">Nome Completo:</label>
+            <input id="nome_completo" type="text" name="nome_completo" id="nome_completo"
+                placeholder="Digite seu nome completo" required  /><br />
+
+            <label for="email">E-mail:</label>
+            <input id="email" type="email" name="email" placeholder="nomeusuario@email.com" required />
+
+            <label for="celular">Celular:</label>
+            <input id="celular" type="tel" name="celular" placeholder="(00) 00000-0000"
+                pattern="^\(?\d{2}\)\d{5}[-\s]\d{4}.*?$" /><br />
+
+            <div id="data-hora">  
+                <div>  
+                    <label for="data_agendamento">Data:</label>
+                    <input id="data_agendamento" type="date" name="data_agendamento" required />
+                </div>
+                <div>
+                    <label for="horario_agendamento">Horário de Entrada:</label>
+                    <input id="horario_agendamento" type="time" name="horario_agendamento" required />
+                </div>
+                <div>    
+                    <label for="horario_saida">Horário de Saída:</label>
+                    <input id="horario_saida" type="time" name="horario_saida" size="80" required />
+                </div>    
+            </div>
+            <fieldset>
+                <legend>Selecione o Setor de Escalada:</legend>
+                <input id="cobra" type="radio" name="setor" value="cobra" /> <label for="cobra">Casa da Cobra</label><br />
+                <input id="bosque" type="radio" name="setor" value="bosque" /> <label for="bosque">Bosque</label><br />
+                <input id="gol" type="radio" name="setor" value="gol" /> <label for="gol">Gol</label><br />
+                <input id="moco" type="radio" name="setor" value="moco" /> <label for="moco">Mocó</label><br />
+                <input id="cinematografico" type="radio" name="setor" value="cinematografico" /> <label
+                    for="cinematografico">Cinematográfico</label><br />
+                <input id="pista" type="radio" name="setor" value="pista" /> <label for="pista">Pista</label><br />
+                <input id="saci" type="radio" name="setor" value="saci" /> <label for="saci">Saci</label><br />
+                <input id="enforcados" type="radio" name="setor" value="enforcados" /> <label
+                    for="enforcados">Enforcados</label><br />
+                <input id="vale_encantado" type="radio" name="setor" value="vale_encantado" /> <label
+                    for="vale_encantado">Vale Encantado</label><br />
+                <input id="salao_de_guerra" type="radio" name="setor" value="salao_de_guerra" /> <label
+                    for="salao_de_guerra">Salão de Guerra</label><br />
+            </fieldset>
+
+            <label for="name">Acompanhantes<label><br>
+                    <textarea id="msg" cols="79" rows="4">
+                    </textarea>
+
+                <div id="botoes-form">    
+                    <input type="submit" name="btn-agendar" value="AGENDAR" />
+                    <input type="reset" name="btn-cancelar" value="CANCELAR" />
+                </div>    
+        </form>
+    </section>
+     <footer>
+        <p>Desenvolvido por <a href="https://www.instagram.com/jakeliny_moura" target="_blank">Jakeliny Moura</a> - 2026</p>
+    </footer>
+</body>
+</html>
