@@ -105,7 +105,7 @@ li{
 }
 
 #equipamentos{
-    background-color: #BFAC45;
+    background-color: #fff;
 
 }
 
@@ -125,7 +125,7 @@ li{
 }
 
 .img-card:hover{
-    box-shadow: 20px 20px 20px #d6ba1c;
+    box-shadow: 20px 20px 20px #bdbaab;
 }
 
 .card-content{
@@ -146,7 +146,11 @@ h3{
 }
 
 #cadastro{
+    background-color: #BFAC45 ;
+}
 
+#cadastro h2{
+    color: #fff;
 }
 
 #cadastro p{
